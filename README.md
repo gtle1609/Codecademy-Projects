@@ -1,0 +1,1 @@
+I'm currently a Research Associate at a Biotech company. At the age of 25, I want to switch my career path from Biotech to Tech. I'm taking Full-Stack Engineer career path from Codecademy while working full-time at my job. This repository is created to upload and save all of the projects that I did while taking Codecademy. 
