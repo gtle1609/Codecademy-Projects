@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>CheatSheet | CSS Selectors and Specificity</title>
+   <link rel="stylesheet" type="text/css" href="../CSS/style.css"/>
+</head>
+<body>
+  <header>
+    <h1>CSS Selectors and Specificity</h1>
+    <nav>
+      <ul>
+        <li><a href="HTMLTables.html">HTML Tables</a></li>
+        <li><a href="OtherHTMLTags.html">Other HTML Tags</a></li>
+        <li><a href="CommonCSS.html">Common CSS Properties</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!--Selectors-->
+    <h2>CSS Selectors</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Selectors</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="name">Type</td>
+          <td>match all elements of a given type or tag name</td>
+        </tr>
+        <tr>
+          <td class="name">Class</td>
+          <td>match elements based on the contents of their class attribute, reusable and apply to many elements</td>
+        </tr>
+        <tr>
+          <td class="name">ID</td>
+          <td>match elements based on the content of their id attribute, unique and style only a single element</td>
+        </tr>
+        <tr>
+          <td class="name">Groups of Selectors</td>
+          <td>match multiple selectors to the same CSS rule, using a comma-separated list</td>
+        </tr>
+        <tr>
+          <td class="name">Chaining Selectors</td>
+          <td>apply only to elements that match all criteria</td>
+        </tr>
+        <tr>
+          <td class="name">CSS Descendant Selector</td>
+          <td> match elements that are descended from another matched selector</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--Specificity-->
+    <h2>CSS Specificity</h2>
+    <p>(Most specfic) ID selectors > Class selectors > Type selectors (Least specific) </p>
+    <p>Used when there are multiple conflicting property values that point to the same element</p>
+    <br><br><br><br><br><br><br>
+  </main>
+</body>
+<footer></footer>
+</html>
+
+<tr>
+  <td class="name"></td>
+  <td></td>
+</tr>
