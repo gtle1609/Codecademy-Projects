@@ -1,0 +1,159 @@
+/*Universal format*/
+* {
+  margin: 20px 20px;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+/*Header*/
+header {
+  background-color: #262626;
+  padding: 10px 10px;
+}
+header h1 {
+  background-color: #262626;
+  font-family: ;
+}
+
+/*Colors*/
+.color {
+  text-align: center;
+}
+.round {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 100px;
+  padding: auto;
+  margin: 40px 30px;
+  display: inline-block;
+  font-size: 20px;
+}
+.black {
+  background-color: #000;
+}
+.black:hover {
+  color: #000;
+}
+.red {
+  background-color: #ff5959;
+}
+.red:hover {
+  color: #ff5959;
+}
+.yellow {
+  background-color: #facf5a;
+}
+.yellow:hover {
+  color: #facf5a;
+}
+.green{
+  background-color: #38865a;
+}
+.green:hover {
+  color: #38865a;
+}
+.teal {
+  background-color: #4f9da6;
+}
+.teal:hover {
+  color: #4f9da6;
+}
+.blue {
+  background-color: #1e2366;
+}
+.blue:hover {
+  color: #1e2366;
+}
+.gray {
+  background-color: #666666;
+}
+.gray:hover {
+  color: #666666;
+}
+
+/*Typography*/
+.fonts {
+  text-align: center;
+}
+.merriweather, .playfair-display, .platypi {
+  text-align: center;
+  display: inline-block;
+  padding: 0 30px;
+  margin: auto;
+  line-height: 40px;
+}
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+.playfair-display {
+  font-family: "Playfair Display", serif;
+}
+.platypi {
+  font-family: "Platypi", serif;
+}
+
+/*styles*/
+.heading, .button {
+  display: inline-block;
+  width: 40%;
+  margin-top: 0;
+  vertical-align: top;
+  text-align: center;
+}
+/*Headings*/
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.platypi-heading {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.playfair-display-heading {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+/*Buttons*/
+button {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+.design_1 {
+  background-color: #38865a;
+  padding: 15px 25px;
+  border: 1px solid #000;
+  border-radius: 5%;
+}
+.design_1:hover {
+  background-color: #fff;
+  color: #38865a;
+  border-color: #38865a
+}
+.design_2 {
+  background-color: #facf5a;
+  color: #000;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.design_2:hover {
+  background-color: #fff;
+  color: #facf5a;
+  border-color: #000
+}
