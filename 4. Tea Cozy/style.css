@@ -1,0 +1,131 @@
+/*body*/
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9;
+}
+body {
+  font-size: 22px;
+}
+h2 {
+  margin: 10px 0 20px;
+}
+h4 {
+  margin: 0 0 10px;
+}
+/*Header*/
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  opacity: 0.9;
+}
+header .logo {
+  height: 50px;
+  justify-content: left;
+  margin-left: 10px;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  text-decoration: underline;
+  display: inline-flex;
+  margin: 10px;
+}
+/*Main*/
+main {
+  margin-top: 70px;
+}
+/*Our Mission*/
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;    
+  background-image: url(Resources/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+#mission-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #000;   
+}
+
+/*featured*/
+#featured {
+  max-width: 1000px;
+  margin: 70px auto 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#food {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+#food .images {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+#food .group {
+  margin: 0 15px 15px 15px;
+}
+
+/*Locations*/
+#location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(Resources/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 500px;
+}
+#location h2 {
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+.location-group {
+  display: inline-flex;
+  justify-content: center;
+  background-color: transparent;
+}
+.downtown, .east-bayside, .oakdale{
+  height: 280px;
+  width: 300px;
+  margin: 0px 20px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/*Footer*/
+footer h2 {
+  margin-bottom: 40px;
+}
+footer h5 {
+  margin-top: 30px;
+}
+footer .left {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 70px;
+}
